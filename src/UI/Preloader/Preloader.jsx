@@ -1,14 +1,11 @@
-import PulseLoader from 'react-spinners/ClipLoader';
+import MoonLoader from 'react-spinners/MoonLoader';
 import PropTypes from 'prop-types';
 import style from './Preloader.module.css';
 
-export const Preloader = ({size}) => {
+export const Preloader = ({ size }) => {
   console.log();
   return (
-    <PulseLoader
-      className={style.preloader}
-      color='#cc6633'
-      size={size} />
+    <MoonLoader className={style.preloader} color="#12d6bcff" size={size} />
   );
 };
 
