@@ -1,0 +1,23 @@
+.like,
+.liked {
+  background-color: transparent;
+  background-size: 26px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 30px;
+  font-weight: 700;
+  border: none;
+  color: var(--white);
+}
+
+.like {
+  background-image: url('./img/likes.svg');
+}
+
+
+.liked {
+  background-image: url('./img/liked.svg');
+}

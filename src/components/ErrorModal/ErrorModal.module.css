@@ -1,0 +1,14 @@
+.errors {
+  z-index: 199;
+  position: fixed;
+  right: 0;
+  bottom: 30px;
+  max-width: 400px;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .errors {
+    max-width: 600px;
+  }
+}
